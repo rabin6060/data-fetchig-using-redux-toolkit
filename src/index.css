@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn {
+        @apply mt-3 rounded bg-purple-300 
+    }
+    .input {
+        @apply bg-slate-100 rounded 
+    }
+    .div {
+        @apply flex flex-col gap-2
+    }
+}
